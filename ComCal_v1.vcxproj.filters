@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="comcal_v1\App.xaml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comcal_v1\ComCalManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comcal_v1\DayPage.xaml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comcal_v1\MonthPage.xaml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comcal_v1\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comcal_v1\WeekPage.xaml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comcal_v1\generated files\XamlLibMetadataProvider.g.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comcal_v1\generated files\XamlTypeInfo.g.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comcal_v1\generated files\XamlTypeInfo.Impl.g.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="comcal_v1\App.xaml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\ComCalManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\DayPage.xaml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\MonthPage.xaml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\WeekPage.xaml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\generated files\App.g.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\generated files\DayPage.g.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\generated files\MonthPage.g.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\generated files\WeekPage.g.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\generated files\XamlTypeInfo.g.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\generated files\App.g.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\generated files\DayPage.g.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\generated files\MonthPage.g.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comcal_v1\generated files\WeekPage.g.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
