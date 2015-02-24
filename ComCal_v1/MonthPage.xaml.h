@@ -1,5 +1,4 @@
-﻿//
-// MonthPage.xaml.h
+﻿// MonthPage.xaml.h
 // Declaration of the MonthPage class
 //
 
@@ -21,7 +20,6 @@ namespace ComCal_v1
 		MonthPage();
 		void setCalendarDate_MonthPage(void);
 		
-
 	private:
 		ComCalManager^ StartComCal;
 
