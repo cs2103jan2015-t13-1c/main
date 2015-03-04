@@ -26,15 +26,49 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.xaml.cpp" />
-    <ClCompile Include="MainPage.xaml.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="ComCalManager.cpp" />
+    <ClCompile Include="DayPage.xaml.cpp" />
+    <ClCompile Include="MonthPage.xaml.cpp" />
+    <ClCompile Include="WeekPage.xaml.cpp" />
+    <ClCompile Include="Add.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Delete.cpp" />
+    <ClCompile Include="Done.cpp" />
+    <ClCompile Include="Edit.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="Help.cpp" />
+    <ClCompile Include="Logic.cpp" />
+    <ClCompile Include="Manipulator.cpp" />
+    <ClCompile Include="Search.cpp" />
+    <ClCompile Include="SearchClause.cpp" />
+    <ClCompile Include="Show.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TextManipulator.cpp" />
+    <ClCompile Include="Undone.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h" />
-    <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="ComCalManager.h" />
+    <ClInclude Include="DayPage.xaml.h" />
+    <ClInclude Include="MonthPage.xaml.h" />
+    <ClInclude Include="WeekPage.xaml.h" />
+    <ClInclude Include="Add.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Delete.h" />
+    <ClInclude Include="Done.h" />
+    <ClInclude Include="Edit.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="Help.h" />
+    <ClInclude Include="Logic.h" />
+    <ClInclude Include="Manipulator.h" />
+    <ClInclude Include="Search.h" />
+    <ClInclude Include="SearchClause.h" />
+    <ClInclude Include="Show.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="TextManipulator.h" />
+    <ClInclude Include="Undone.h" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
