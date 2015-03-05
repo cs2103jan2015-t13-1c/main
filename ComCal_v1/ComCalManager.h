@@ -1,5 +1,14 @@
 #pragma once
-
+/*
+@Hamzah(from Huang Qin): There needs to be a main function of some sort that serves as the entry point of the program.
+This function will also serve as the initializer for Logic and TextManipulator classes, 1 for the former and 1 for each
+.txt file for the latter, to ensure that there is only 1 brain (served by Logic class) for the entire program and 1 file
+manager (served by TextManipulator Class) for each file. For a sample of the code for this initializer, refer to ComCalManager 
+constructor implementation. The run function it calls basically controls the runtime of the program, to keep reading inputs
+and printing outputs until exit command is read, then it will terminate by exiting the function. I'm not sure how our GUI 
+components can be integrated with this architecture, so maybe you can consider this while designing and implementing the GUI.
+Thanks!!!
+*/
 /***********************************************************************************************************************************************
 This Main.cpp file contains the main function, which is the entry point of the ComCal program, and serves as the program's initialiser.
 ComCal is a CLI input coupled with GUI display program that enables users to manage their tasks more efficiently and effectively.
@@ -16,7 +25,7 @@ ComCal has the following task management functionalities:
 
 #include "Manipulator.h"
 #include "Logic.h"
-#include "Exception.h"
+#include "Exceptions.h"
 
 #include "Windows.h"
 #include <string>
@@ -56,7 +65,7 @@ private:
 
 	void prestartCheck(Manipulator*);
 	void printWelcomeMessage(std::string, std::string);
-	void run(Logic*);
+	void run();
 	std::string read();
 	void printOutput(std::string);
 

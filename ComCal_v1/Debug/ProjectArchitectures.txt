@@ -1,1 +1,1 @@
-C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\ComCal_v1\ComCal_v1.vcxproj;x86
+C:\Users\Edmund\Desktop\HQ\cs2103jan2015-t13-1c\ComCal_v1\ComCal_v1.vcxproj;x86

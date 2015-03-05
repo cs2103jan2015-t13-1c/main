@@ -94,6 +94,9 @@
   <PropertyGroup>
     <PackageCertificateKeyFile>ComCal_v1_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Edmund\Desktop\HQ\cs2103jan2015-t13-1c\ComCal_v1\Logic;C:\Users\Edmund\Desktop\HQ\cs2103jan2015-t13-1c\ComCal_v1\Library;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
@@ -131,19 +134,10 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Add.h" />
     <ClInclude Include="ComCalManager.h" />
-    <ClInclude Include="Command.h" />
     <ClInclude Include="DayPage.xaml.h">
       <DependentUpon>DayPage.xaml</DependentUpon>
     </ClInclude>
-    <ClInclude Include="Delete.h" />
-    <ClInclude Include="Done.h" />
-    <ClInclude Include="Edit.h" />
-    <ClInclude Include="Exception.h" />
-    <ClInclude Include="Help.h" />
-    <ClInclude Include="Logic.h" />
-    <ClInclude Include="Manipulator.h" />
     <ClInclude Include="MonthPage.xaml.h">
       <DependentUpon>MonthPage.xaml</DependentUpon>
     </ClInclude>
@@ -151,12 +145,6 @@
     <ClInclude Include="App.xaml.h">
       <DependentUpon>App.xaml</DependentUpon>
     </ClInclude>
-    <ClInclude Include="Search.h" />
-    <ClInclude Include="SearchClause.h" />
-    <ClInclude Include="Show.h" />
-    <ClInclude Include="Task.h" />
-    <ClInclude Include="TextManipulator.h" />
-    <ClInclude Include="Undone.h" />
     <ClInclude Include="WeekPage.xaml.h">
       <DependentUpon>WeekPage.xaml</DependentUpon>
     </ClInclude>
@@ -179,22 +167,13 @@
     <Image Include="Assets\SplashScreen.scale-100.png" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Add.cpp" />
     <ClCompile Include="App.xaml.cpp">
       <DependentUpon>App.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="ComCalManager.cpp" />
-    <ClCompile Include="Command.cpp" />
     <ClCompile Include="DayPage.xaml.cpp">
       <DependentUpon>DayPage.xaml</DependentUpon>
     </ClCompile>
-    <ClCompile Include="Delete.cpp" />
-    <ClCompile Include="Done.cpp" />
-    <ClCompile Include="Edit.cpp" />
-    <ClCompile Include="Exception.cpp" />
-    <ClCompile Include="Help.cpp" />
-    <ClCompile Include="Logic.cpp" />
-    <ClCompile Include="Manipulator.cpp" />
     <ClCompile Include="MonthPage.xaml.cpp">
       <DependentUpon>MonthPage.xaml</DependentUpon>
     </ClCompile>
@@ -206,12 +185,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Search.cpp" />
-    <ClCompile Include="SearchClause.cpp" />
-    <ClCompile Include="Show.cpp" />
-    <ClCompile Include="Task.cpp" />
-    <ClCompile Include="TextManipulator.cpp" />
-    <ClCompile Include="Undone.cpp" />
     <ClCompile Include="WeekPage.xaml.cpp">
       <DependentUpon>WeekPage.xaml</DependentUpon>
     </ClCompile>
@@ -226,6 +199,14 @@
     <Page Include="WeekPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Library\Library.vcxproj">
+      <Project>{3b1c3fd2-d117-4521-a42c-6470056deeb4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Logic\Logic.vcxproj">
+      <Project>{e2922451-82cc-490b-bf1d-d7984a8f5c79}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

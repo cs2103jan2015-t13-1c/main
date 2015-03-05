@@ -30,8 +30,9 @@ ComCalManager::ComCalManager(){
 	printWelcomeMessage(todoFileName, doneFileName);
 
 	logPtr = new Logic(todoTMPtr, doneTMPtr);
+	_logPtr = logPtr;
 
-	run(logPtr);
+	run();
 
 	delete todoTMPtr;
 	delete doneTMPtr;
@@ -52,8 +53,7 @@ Platform::String^ ComCalManager::deduceCommand(Platform::String^){
 	return feedBackMessage;
 }
 
-void ComCalManager::run(Logic* logPtr) {
-	_logPtr = logPtr;
+void ComCalManager::run() {
 	std::string userInput;
 	std::string output;
 	bool isTerminate;
