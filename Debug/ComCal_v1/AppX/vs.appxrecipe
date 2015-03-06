@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HAMZAH</Machine>
+    <WindowsUser>Al Hamzah</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>992aed5e-921f-4aae-b7c2-e4e5f28c4000</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\ComCal_v1\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>50F1A283C4554DB706FFCC711E2837D4353F8DFB0E57DC3D79B7767EBD0257E3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>992aed5e-921f-4aae-b7c2-e4e5f28c4000_1.0.0.0_x86__jw10xjyqk75d8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>992aed5e-921f-4aae-b7c2-e4e5f28c4000_jw10xjyqk75d8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>992aed5e-921f-4aae-b7c2-e4e5f28c4000</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Al Hamzah</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\Debug\ComCal_v1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-24T09:45:58.421</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\Debug\ComCal_v1\ComCal_v1.exe">
+      <PackagePath>ComCal_v1.exe</PackagePath>
+      <Modified>2015-02-24T09:45:56.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\Debug\ComCal_v1\ComCal_v1.winmd">
+      <PackagePath>ComCal_v1.winmd</PackagePath>
+      <Modified>2015-02-24T09:33:17.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\ComCal_v1\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\ComCal_v1\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\ComCal_v1\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\ComCal_v1\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\Debug\ComCal_v1\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-02-24T09:33:18.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\Debug\ComCal_v1\DayPage.xbf">
+      <PackagePath>DayPage.xbf</PackagePath>
+      <Modified>2015-02-24T09:33:18.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\Debug\ComCal_v1\MonthPage.xbf">
+      <PackagePath>MonthPage.xbf</PackagePath>
+      <Modified>2015-02-24T09:33:18.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\Debug\ComCal_v1\WeekPage.xbf">
+      <PackagePath>WeekPage.xbf</PackagePath>
+      <Modified>2015-02-24T09:33:18.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Al Hamzah\Documents\Visual Studio 2013\Projects\ComCal_v1\Debug\ComCal_v1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-02-24T09:45:57.493</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,190 @@
+﻿<Page
+    x:Class="ComCal_v1.MonthPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ComCal_v1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Height="772" VerticalAlignment="Top" Margin="0,0,0,0" Background="#FFCFF5F0">
+        <TextBlock Name="MonthPageTitle" TextWrapping="Wrap" Text="" Height="44" TextAlignment="Center" Margin="0,39,392,689" HorizontalAlignment="Right" VerticalAlignment="Center" Width="303" FontSize="42" Foreground="#FF196576"/>
+        <TextBlock HorizontalAlignment="Left" Height="68" Margin="26,11,0,693" TextWrapping="Wrap" Text="ComCal" Width="259" FontSize="72" FontFamily="AR BLANCA" Foreground="#FF196576"/>
+
+        <Grid Name="MonthGrid" Height="538" Margin="0,0,2,144" RenderTransformOrigin="0.67,0.309" Canvas.ZIndex="-2" Width="1072" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="150*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="11*"/>
+                <RowDefinition Height="24*"/>
+                <RowDefinition Height="24*"/>
+                <RowDefinition Height="24*"/>
+                <RowDefinition Height="24*"/>
+                <RowDefinition Height="24*"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle Grid.Row="0" Grid.Column="0" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="1" Grid.Column="0" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="2" Grid.Column="0" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="3" Grid.Column="0" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="4" Grid.Column="0" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="5" Grid.Column="0" Fill="#FF40D6D6"/>
+
+            <Rectangle Grid.Row="0" Grid.Column="2" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="1" Grid.Column="2" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="2" Grid.Column="2" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="3" Grid.Column="2" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="4" Grid.Column="2" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="5" Grid.Column="2" Fill="#FF40D6D6"/>
+
+            <Rectangle Grid.Row="0" Grid.Column="4" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="1" Grid.Column="4" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="2" Grid.Column="4" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="3" Grid.Column="4" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="4" Grid.Column="4" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="5" Grid.Column="4" Fill="#FF40D6D6"/>
+
+            <Rectangle Grid.Row="0" Grid.Column="6" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="1" Grid.Column="6" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="2" Grid.Column="6" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="3" Grid.Column="6" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="4" Grid.Column="6" Fill="#FF40D6D6"/>
+            <Rectangle Grid.Row="5" Grid.Column="6" Fill="#FF40D6D6"/>
+
+            <Rectangle Grid.Row="0" Grid.Column="1" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="1" Grid.Column="1" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="2" Grid.Column="1" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="3" Grid.Column="1" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="4" Grid.Column="1" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="5" Grid.Column="1" Fill="#FF8DE2D6"/>
+
+            <Rectangle Grid.Row="0" Grid.Column="3" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="1" Grid.Column="3" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="2" Grid.Column="3" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="3" Grid.Column="3" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="4" Grid.Column="3" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="5" Grid.Column="3" Fill="#FF8DE2D6"/>
+
+            <Rectangle Grid.Row="0" Grid.Column="5" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="1" Grid.Column="5" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="2" Grid.Column="5" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="3" Grid.Column="5" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="4" Grid.Column="5" Fill="#FF8DE2D6"/>
+            <Rectangle Grid.Row="5" Grid.Column="5" Fill="#FF8DE2D6"/>
+
+            <TextBlock Name="monthPage_Day1" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="51,10,61,5" TextWrapping="Wrap" Text="Sun" VerticalAlignment="Center" Height="30" Width="41" FontSize="24" RenderTransformOrigin="0.034,0.363" Foreground="#FF196576" SelectionHighlightColor="{x:Null}"/>
+            <TextBlock Name="monthPage_Day2" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Mon" VerticalAlignment="Center" Height="30" Width="52" FontSize="24" Margin="50,9,51,6" RenderTransformOrigin="0.829,-0.433" Foreground="#FF196576"/>
+            <TextBlock Name="monthPage_Day3" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Tue" VerticalAlignment="Center" Height="30" Width="41" FontSize="24" Foreground="#FF196576" RenderTransformOrigin="0.666,0.933" Margin="58,9,54,6"/>
+            <TextBlock Name="monthPage_Day4" Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" Margin="52,9,51,10" TextWrapping="Wrap" Text="Wed" VerticalAlignment="Center" Height="26" Width="50" FontSize="24" RenderTransformOrigin="0.57,1.055" Foreground="#FF196576"/>
+            <TextBlock Name="monthPage_Day5" Grid.Column="4" Grid.Row="0" HorizontalAlignment="Center" Margin="52,10,58,5" TextWrapping="Wrap" Text="Thu" VerticalAlignment="Center" Height="30" Width="43" FontSize="24" RenderTransformOrigin="0.642,0.995" Foreground="#FF196576"/>
+            <TextBlock Name="monthPage_Day6" Grid.Column="5" Grid.Row="0" HorizontalAlignment="Left" Margin="58,9,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Fri" VerticalAlignment="Top" Height="30" Width="40" FontSize="24" Foreground="#FF196576"/>
+            <TextBlock Name="monthPage_Day7" Grid.Column="6" Grid.Row="0" HorizontalAlignment="Left" Margin="60,9,0,0" TextWrapping="Wrap" Text="Sat" VerticalAlignment="Top" Height="26" Width="39" FontSize="24" Foreground="#FF196576"/>
+
+            <TextBlock x:Name="monthDate_grid11" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="11"/>
+            <TextBlock x:Name="monthDate_grid12" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" FontSize="20" Text=""  VerticalAlignment="Top" Height="24" Width="11"/>
+            <TextBlock x:Name="monthDate_grid13" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="1" Grid.Column="2" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="11"/>
+            <TextBlock x:Name="monthDate_grid14" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="1" Grid.Column="3" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="11"/>
+            <TextBlock x:Name="monthDate_grid15" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="1" Grid.Column="4" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="11"/>
+            <TextBlock x:Name="monthDate_grid16" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="1" Grid.Column="5" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="11"/>
+            <TextBlock x:Name="monthDate_grid17" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="1" Grid.Column="6" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="11"/>
+
+            <TextBlock x:Name="monthDate_grid21" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="11"/>
+            <TextBlock x:Name="monthDate_grid22" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="11"/>
+            <TextBlock x:Name="monthDate_grid23" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="2" Grid.Column="2" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid24" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="2" Grid.Column="3" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid25" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="2" Grid.Column="4" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid26" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="2" Grid.Column="5" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid27" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="2" Grid.Column="6" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+
+            <TextBlock x:Name="monthDate_grid31" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid32" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid33" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="3" Grid.Column="2" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid34" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="3" Grid.Column="3" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid35" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="3" Grid.Column="4" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid36" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="3" Grid.Column="5" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid37" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="3" Grid.Column="6" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+
+            <TextBlock x:Name="monthDate_grid41" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid42" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid43" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="4" Grid.Column="2" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid44" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="4" Grid.Column="3" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid45" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="4" Grid.Column="4" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid46" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="4" Grid.Column="5" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid47" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="4" Grid.Column="6" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+
+            <TextBlock x:Name="monthDate_grid51" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid52" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="5" Grid.Column="1" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid53" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="5" Grid.Column="2" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid54" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="5" Grid.Column="3" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid55" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="5" Grid.Column="4" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid56" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="5" Grid.Column="5" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+            <TextBlock x:Name="monthDate_grid57" Foreground="#FF196576" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="5" Grid.Column="6" TextWrapping="Wrap" FontSize="20" Text="" VerticalAlignment="Top" Height="24" Width="22"/>
+
+            <TextBlock Name="date_tasks11" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks12" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks13" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="1" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks14" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="1" Grid.Column="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks15" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="1" Grid.Column="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks16" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="1" Grid.Column="5" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks17" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="1" Grid.Column="6" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+
+            <TextBlock Name="date_tasks21" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks22" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks23" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="2" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks24" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="2" Grid.Column="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks25" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="2" Grid.Column="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks26" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="2" Grid.Column="5" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks27" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="2" Grid.Column="6" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+
+            <TextBlock Name="date_tasks31" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks32" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks33" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="3" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks34" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="3" Grid.Column="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks35" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="3" Grid.Column="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks36" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="3" Grid.Column="5" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks37" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="3" Grid.Column="6" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+
+            <TextBlock Name="date_tasks41" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks42" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks43" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="4" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks44" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="4" Grid.Column="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks45" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="4" Grid.Column="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks46" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="4" Grid.Column="5" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks47" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="4" Grid.Column="6" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+
+            <TextBlock Name="date_tasks51" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks52" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="5" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks53" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="5" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks54" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="5" Grid.Column="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks55" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="5" Grid.Column="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks56" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="5" Grid.Column="5" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+            <TextBlock Name="date_tasks57" Foreground="#FF196576" HorizontalAlignment="Left" Height="61" Margin="2,39,0,0" Grid.Row="5" Grid.Column="6" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Grid.RowSpan="2" FontSize="16"/>
+
+        </Grid>
+        <TextBlock x:Name="helperBlock" HorizontalAlignment="Left" Margin="400,647,-2,93" TextWrapping="Wrap" Width="968" SelectionHighlightColor="#FFB1A4D1" FontSize="20" Foreground="#FF196576"/>
+        <TextBox x:ConnectionId='1' x:Name="userInputBox" HorizontalAlignment="Right" VerticalAlignment="Bottom" BorderBrush="Blue" BorderThickness="5" Background="Aquamarine" Height="66" TextWrapping="Wrap" Width="966" FontSize="25" Margin="0,0,0,26" Foreground="#FF196576"                     />
+        <Grid HorizontalAlignment="Left" Height="646" Margin="28,96,0,0" VerticalAlignment="Top" Width="236" Background="Aquamarine">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="22*"/>
+                <RowDefinition Height="149*"/>
+                <RowDefinition Height="18*"/>
+                <RowDefinition Height="134*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Foreground="#FF196576" Text="Feedback:" FontSize="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontWeight="Bold" Height="29" Width="197"/>
+            <TextBlock Grid.Row="2" Foreground="#FF196576" Text="Command Sheet:" FontSize="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontWeight="Bold" Height="29" Width="192"/>
+            <TextBlock Name="feedbackBlock" Foreground="#FF196576" HorizontalAlignment="Left" Height="298" Margin="0,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
+            <TextBlock x:Name="commandHelpSheet" HorizontalAlignment="Left" Height="268" Margin="0" Grid.Row="3" VerticalAlignment="Top" Width="236" TextWrapping="Wrap" Foreground="#FF196576" FontSize="14"/>
+
+        </Grid>
+        <Button x:ConnectionId='2' Content="Default&#10;  View" HorizontalAlignment="Left" Margin="294,677,0,0" BorderBrush="Aquamarine" BorderThickness="5" VerticalAlignment="Top" Width="87" Height="72" Foreground="#FF196576"                    />
+    </Grid>
+</Page>
+
