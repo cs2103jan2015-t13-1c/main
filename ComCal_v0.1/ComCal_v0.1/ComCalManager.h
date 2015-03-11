@@ -2,11 +2,13 @@
 
 #include <string>
 #include <vector>
+#include "Task.h"
 
-ref class ComCalManager sealed
+class ComCalManager
 {
 public:
-	ComCalManager();	
+	ComCalManager();
+	~ComCalManager();
 
 	//1) This function will deduce the mainCom and call that specific function
 	//2) The String^ here will be converted to a normal c++ string the passed to the mainCom functions
@@ -14,8 +16,10 @@ public:
 	System::String^ deduceCommand(System::String^); 
 
 private:
-	std::vector<int>* indexInUse; //used to store all the index in use
-	~ComCalManager();
+	std::vector<Task*>* _tasks;
+
+	std::string convertStrTostr(System::String^); // Converts System::String^ into std::string
+	System::String^ convertstrToStr(std::string); // Converts std::string into System::String^
 
 	//------------------------------------Standalone Functions------------------------------------------
 	//1) Standalone functions that might be useful to other mainComs

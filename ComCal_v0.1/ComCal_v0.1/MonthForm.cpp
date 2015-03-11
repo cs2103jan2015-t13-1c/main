@@ -9,24 +9,17 @@ using namespace System::Windows::Forms;
 MonthForm::MonthForm(int argc, array<String^>^ argv)
 {
 	InitializeComponent();
+
+	_manager = new ComCalManager();
 }
 
-std::string MonthForm::convertStrTostr(String^ userInput){
-	std::string strInput;
 
-	strInput = msclr::interop::marshal_as<std::string>(userInput);
-
-	return strInput;
-}
-
-System::Void MonthForm::userEnter(System::Object^  sender, System::Windows::Forms::KeyEventArgs^  e){
-	std::string feedBackMessage;
+System::Void MonthForm::userEnter(System::Object^ sender, System::Windows::Forms::KeyEventArgs^ e) {
 	String^ feedBack;
 
 	if (e->KeyCode == Keys::Enter){
-		// _startComCal->runLogic->executeCommand(convertStrTostr(userInputBox->Text), feedBackMessage); // <--- logic to process input here
+		feedBack = _manager->deduceCommand(userInputBox->Text);
 
-		feedBack = msclr::interop::marshal_as<String^>(feedBackMessage);
 		userInputBox->Text = nullptr;
 	}
 }

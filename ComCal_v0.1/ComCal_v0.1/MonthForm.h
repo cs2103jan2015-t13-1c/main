@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include "ComCalManager.h"
 
 namespace ComCal_v01 {
 
@@ -20,7 +21,7 @@ namespace ComCal_v01 {
 		MonthForm(int, array<String^>^);
 
 	private:
-		std::string convertStrTostr(String^);
+		ComCalManager* _manager;
 
 	protected:
 		/// <summary>
@@ -32,6 +33,8 @@ namespace ComCal_v01 {
 			{
 				delete components;
 			}
+
+			delete _manager;
 		}
 		//Function to set the calendar----------------------------------------------------------------
 
