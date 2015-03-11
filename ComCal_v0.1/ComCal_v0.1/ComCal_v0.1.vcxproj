@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ComCalManager.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MonthForm.cpp" />
   </ItemGroup>
   <ItemGroup>
