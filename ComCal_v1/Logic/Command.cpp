@@ -109,7 +109,12 @@ std::vector<std::vector<std::string>> Command::extractParamsForKeywords(std::str
 }
 
 time_t Command::processTime(std::string userInput, bool isStart, bool isWeekPermitted) {
-	assert(userInput != "");
+	std::ofstream logFile;
+	logFile.open(FILENAME_LOGDEFAULT, std::ios::app);
+	if (userInput == "") {
+		logFile << PROCESSTIME_EMPTYINPUT << std::endl;
+		assert(userInput != "");
+	}	
 
 	time_t timeT;
 
@@ -786,7 +791,12 @@ std::string Command::getTaskType(std::string typeCode) {
 }
 
 std::string Command::processTimeTToString(time_t timeT) {
-	assert(timeT > 0);
+	std::ofstream logFile;
+	logFile.open(FILENAME_LOGDEFAULT, std::ios::app);
+	if (timeT <= 0) {
+		logFile << PROCESSTIMETTOSTRING_NONPOSITIVE << std::endl;
+		assert(timeT > 0);
+	}
 
 	tm timeTm;
 	localtime_s(&timeTm, &timeT);

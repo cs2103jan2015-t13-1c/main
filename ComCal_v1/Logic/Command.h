@@ -15,6 +15,13 @@ Holds a private attribute of pointer to TextManipulator object
 #include "TextManipulator.h"
 #include "Task.h"
 
+//Default log file name constant string declarations:
+const std::string FILENAME_LOGDEFAULT = "ActivityLog.txt";
+
+//Logging strings:
+static const std::string PROCESSTIME_EMPTYINPUT = "processTime function in Command class receiving empty input.\n";
+static const std::string PROCESSTIMETTOSTRING_NONPOSITIVE = "processTimeTToString function in Command class receiving non positive time_t.\n";
+
 //Command strings:
 static const std::string COMMAND_ADD = "add";
 static const std::string COMMAND_SHOW = "show";
